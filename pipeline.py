@@ -24,7 +24,7 @@ resource_template = """
   type: docker-image
   tags: [public] 
   source:
-    repository: ((docker_account))/privatebox
+    repository: ((docker_account))/%(dockerfile)s
     username: ((docker_username))
     password: ((docker_password))
 """
