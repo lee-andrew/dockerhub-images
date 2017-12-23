@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: plexcloudmusic/privatebox
+    repository: plexcloudmusic/reapply-pipelines
 
 inputs:
 - name: git_docker_image
