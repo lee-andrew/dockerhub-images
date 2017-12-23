@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: plexcloudmusic/privatebox
+
+inputs:
+- name: git_docker_image
+
+run:
+  path: git_docker_image/tasks/apply_pipeline/task.sh
