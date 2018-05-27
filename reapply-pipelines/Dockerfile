@@ -6,6 +6,7 @@ RUN apt-get install -y python
 RUN apt-get install -y wget
 RUN apt-get install -y python3
 RUN apt-get install -y python3-pip
+RUN apt-get install -y locales
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
