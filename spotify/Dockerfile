@@ -23,6 +23,6 @@ RUN pip3 install titlecase
 RUN pip3 install plexapi
 RUN pip3 install xmltodict
 
-RUN wget https://github.com/ritiek/spotify-downloader/archive/v1.1.0.tar.gz
-RUN tar -zxvf v1.1.0.tar.gz
+RUN wget https://github.com/ritiek/spotify-downloader/archive/v1.2.0.tar.gz
+RUN tar -zxvf v1.2.0.tar.gz
 RUN cd spotify-downloader-* && pip3 install .
