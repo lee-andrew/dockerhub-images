@@ -11,6 +11,7 @@ RUN apt-get -y install wget
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 
+RUN pip3 install psycopg2-binary
 RUN pip3 install psycopg2
 RUN pip3 install pathlib
 RUN pip3 install BeautifulSoup4
